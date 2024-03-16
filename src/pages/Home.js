@@ -1,5 +1,5 @@
 import './Home.css'
-import { useContext,useState} from 'react'
+import { useContext} from 'react'
 import {TeamContext} from '../context/TeamContext'
 
 import { Link } from 'react-router-dom'
@@ -23,7 +23,7 @@ setPlayers("");
 setTeam("");
 
 }
-const{NPlayers,setPlayers,NTeam,setTeam,createCrew,crew,setCrew}=useContext(TeamContext);
+const{NPlayers,setPlayers,NTeam,setTeam,createCrew,crew,}=useContext(TeamContext);
 var times = Math.floor(NPlayers / NTeam);
  var reservas = NPlayers% NTeam;
 var show;
