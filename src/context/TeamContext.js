@@ -74,7 +74,7 @@ draw();
 
 
 return(
-    <TeamContext.Provider value={{NPlayers,setPlayers,NTeam,setTeam,crew,setCrew,createCrew,draw,setSides,Sides}}>
+    <TeamContext.Provider value={{NPlayers,setPlayers,NTeam,setTeam,crew,setCrew,createCrew,draw,setSides,Sides,Player}}>
       {children}
     </TeamContext.Provider>
 )
