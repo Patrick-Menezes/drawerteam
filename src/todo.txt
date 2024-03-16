@@ -1,0 +1,14 @@
+adicionar times e reservas na tela inicial
+
+fazer o sorteio dos times
+
+redirecionar para outras telas 
+
+melhorar css
+
+
+
+const handleDelete = (id) => {
+    const newContacts = contacts.filter((item, i) => i !== id);
+    setContacts(newContacts);
+}
