@@ -62,9 +62,14 @@ h1{
      color:aliceblue;
      margin-bottom: .3em;
      display: inline;
-     
+     border: 1px aliceblue;
     }
-    
+    .banner{
+      max-width: 70vw;
+      margin: 0 auto;
+    }
+
+
 .img{
     
    margin: 0 auto;

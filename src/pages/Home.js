@@ -61,7 +61,8 @@ if(NPlayers !==0 && NTeam !==0)
 
 <div className="banner">
 {show&&(
-<p>o resultado é {times} times, e {reservas}  reserva(s)</p> 
+<p>o resultado é {times} times,
+ e {reservas}  reserva(s)</p> 
 )
 }
 </div>
